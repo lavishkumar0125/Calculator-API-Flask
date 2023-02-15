@@ -1,0 +1,45 @@
+:root {
+  background-color: rgb(52, 50, 49);
+}
+.div {
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+  align-items: center;
+}
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  width: 50%;
+}
+.input {
+  width: 50%;
+}
+#operation {
+  width: 15%;
+}
+.flex {
+  flex: 1;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#submit {
+  border-radius: 10px;
+  align-items: center;
+  padding: 8px;
+  margin: 10px;
+  width: 20%;
+}
+#res {
+  border: 1px solid rgba(241, 225, 217, 0.758);
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 40px;
+}
